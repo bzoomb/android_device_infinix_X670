@@ -325,7 +325,24 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1.vendor:64
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 
 
 # Soong namespaces
