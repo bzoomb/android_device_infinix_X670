@@ -329,6 +329,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1.vendor:64
 
+# Neural Networks
+PRODUCT_PACKAGES += \
+    android.hardware.neuralnetworks@1.3.vendor \
+    libtextclassifier_hash.vendor
 
 
 
@@ -342,7 +346,6 @@ PRODUCT_PACKAGES += \
 
 
 
-	
 
 
 # Soong namespaces
