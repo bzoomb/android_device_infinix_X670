@@ -201,6 +201,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libdrm.vendor
 
+# Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.hardware_keystore.km41.xml \
+    android.hardware.keymaster@4.1.vendor \
+    libkeymaster4.vendor \
+    libkeymaster41.vendor:64 \
+    libkeymaster4_1support.vendor:64 \
+    libkeymaster4support.vendor \
+    libpuresoftkeymasterdevice.vendor \
+    libsoft_attestation_cert.vendor
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
