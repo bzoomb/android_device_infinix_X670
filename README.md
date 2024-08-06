@@ -15,7 +15,7 @@ SoC     | Mediatek MT6781 Helio G96 (12 nm)
 CPU     | Octa-core (2x2.05 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)
 GPU     | Mali-G57 MC2
 Memory  | 8 GB RAM
-Shipped Android Version | 10 with MIUI 12
+Shipped Android Version | 12 with XOS 10.6
 Storage | 128/256 GB
 Battery | Non-removable Li-Ion 5000 mAh battery
 Display | 1080 x 2400 pixels, 20:9 ratio, 6.67 inches, AMOLED (~393 ppi density)
