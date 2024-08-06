@@ -101,6 +101,7 @@ BOARD_USES_METADATA_PARTITION := true
 
 # Recovery
 BOARD_USES_RECOVERY_AS_BOOT := true
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6893
 
 # Inherit the proprietary files
 include vendor/infinix/X670/BoardConfigVendor.mk
